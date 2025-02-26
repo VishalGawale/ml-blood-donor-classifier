@@ -6,8 +6,8 @@ This is my take on using machine learning to make sense of blood donation data. 
 
 ## Tasks & Steps  
 Here’s how I pulled it off:  
-- **Anomaly Detection**: Fired up Isolation Forest to sniff out weird data points—like donors who don’t fit the mold.  
-- **Classification**: Trained a trio of models—Decision Tree, XGBoost, and a Combined Model—to predict health statuses. Tuned XGBoost with GridSearchCV for that extra oomph.  
+- **Anomaly Detection**: Fired up Isolation Forest to sniff out weird data points like donors who don’t fit the mold.  
+- **Classification**: Trained a trio of models Decision Tree, XGBoost, and a Combined Model to predict health statuses. Tuned XGBoost with GridSearchCV for that extra oomph.  
 - **Evaluation**: Checked my work with a Confusion Matrix, Classification Report (Precision, Recall, F1), ROC Curve, AUC Score, and good ol’ accuracy metrics.  
 - **Explainability**: Used SHAP to shine a light on what features (like blood markers) matter most and why the models think what they do.  
 
