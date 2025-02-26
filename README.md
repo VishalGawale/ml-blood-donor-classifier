@@ -1,26 +1,31 @@
-# Anomaly Detection and Classification for Blood Donation Dataset
+# Anomaly Detection & Classification in Blood Donation Data
+Hey there! Welcome to my project on spotting quirks and predicting health conditions in blood donation data. I dove into a dataset of blood donor medical records to detect anomalies (think oddball outliers) and classify folks into categories like donation status, hepatitis, cirrhosis, and more. Armed with machine learning, I built a system that’s part detective, part fortune-teller—perfect for recruiters looking for data science chops with real-world impact!
 
-This project aims to detect anomalies and classify blood donation data to predict various medical conditions such as blood donation status, hepatitis, cirrhosis, and other related health issues. The dataset includes medical records of blood donors, and the task is to classify them into different health categories and identify any potential anomalies or outliers in the data. Several machine learning techniques, including anomaly detection and classification, are employed to achieve this goal.
+## Project Overview  
+This is my take on using machine learning to make sense of blood donation data. The goal? Flag unusual cases and predict medical conditions that matter. I mixed anomaly detection with classification magic, leaning on tools like Isolation Forest, Decision Trees, XGBoost, and a custom Combined Model. Plus, I threw in SHAP to explain what’s driving the predictions—because transparency is key. It’s a blend of tech and purpose, and I’m stoked to show you how it works!
 
-The project utilizes several algorithms and frameworks such as **Isolation Forest** for anomaly detection, **Decision Tree**, **XGBoost**, and a **Combined Model** for classification, and **SHAP** (SHapley Additive exPlanations) for model interpretability. Hyperparameter tuning is done for **XGBoost** using **GridSearchCV** to improve the accuracy of the models.
+## Tasks & Steps  
+Here’s how I pulled it off:  
+- **Anomaly Detection**: Fired up Isolation Forest to sniff out weird data points—like donors who don’t fit the mold.  
+- **Classification**: Trained a trio of models—Decision Tree, XGBoost, and a Combined Model—to predict health statuses. Tuned XGBoost with GridSearchCV for that extra oomph.  
+- **Evaluation**: Checked my work with a Confusion Matrix, Classification Report (Precision, Recall, F1), ROC Curve, AUC Score, and good ol’ accuracy metrics.  
+- **Explainability**: Used SHAP to shine a light on what features (like blood markers) matter most and why the models think what they do.  
 
-## Features
+## Key Insights  
+- Isolation Forest nailed the outliers—think rare cases that could signal deeper issues.  
+- XGBoost, post-tuning, stole the show with top-tier accuracy. It’s my go-to for a reason!  
+- Features like donor history and lab results were huge predictors—SHAP visuals made that crystal clear.  
+- The Combined Model brought teamwork to the table, boosting predictions beyond any solo act.  
 
-- **Anomaly Detection**: Uses the **Isolation Forest** algorithm to identify and isolate anomalies or outliers in the dataset.
-- **Classification Models**: Implements multiple classification algorithms including **Decision Tree**, **XGBoost**, and a **Combined Model** that combines multiple models for improved prediction accuracy.
-- **Hyperparameter Tuning**: **XGBoost** model undergoes **GridSearchCV** for finding the optimal parameters, which enhances the model's performance.
-- **Model Evaluation**: Performance metrics used to evaluate the models include:
-  - **Confusion Matrix**
-  - **Classification Report** (Precision, Recall, F1 Score)
-  - **ROC Curve**
-  - **AUC (Area Under Curve) Score**
-  - **Accuracy, Precision, Recall**
-- **Model Explainability**: Utilizes **SHAP** to generate detailed visualizations of feature importance and to explain model predictions for better interpretability.
+## Requirements  
+To run this, you’ll need:  
+- Python 3.x  
+- Libraries: `pandas`, `numpy`, `scikit-learn`, `xgboost`, `shap`, `matplotlib`, `seaborn`  
+All neatly listed in `requirements.txt` for you!
 
-## Installation
-
-To set up the environment and run the project locally, follow the steps below:
-
-1. **Clone the repository** to your local machine:
-   ```bash
-   git clone https://github.com/your-username/blood-donation-anomaly-detection.git
+## Installation  
+Ready to dig in? Here’s how to set it up:  
+1. Clone the repo and hop in:  
+   ```bash  
+   git clone https://github.com/VishalGawale/ml-blood-donor-classifier.git  
+   cd ml-blood-donor-classifier 
