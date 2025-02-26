@@ -1,8 +1,8 @@
 # Anomaly Detection & Classification in Blood Donation Data
-Hey there! Welcome to my project on spotting quirks and predicting health conditions in blood donation data. I dove into a dataset of blood donor medical records to detect anomalies (think oddball outliers) and classify folks into categories like donation status, hepatitis, cirrhosis, and more!
+Hey there! Welcome to my project on spotting quirks and predicting health conditions in blood donation data. I dove into a dataset of blood donor medical records to detect anomalies (think oddball outliers) and classify folks into categories like donation status, hepatitis, cirrhosis, and more.
 
 ## Project Overview  
-This is my take on using machine learning to make sense of blood donation data. The goal? Flag unusual cases and predict medical conditions that matter. I mixed anomaly detection with classification magic, leaning on tools like Isolation Forest, Decision Trees, XGBoost, and a custom Combined Model. Plus, I threw in SHAP to explain what’s driving the predictions—because transparency is key. It’s a blend of tech and purpose, and I’m stoked to show you how it works!
+This is my take on using machine learning to make sense of blood donation data. The goal? Flag unusual cases and predict medical conditions that matter. I mixed anomaly detection with classification magic, leaning on tools like Isolation Forest, Decision Trees, XGBoost, and a custom Combined Model. Plus, I threw in SHAP to explain what’s driving the predictions because transparency is key. It’s a blend of tech and purpose, and I’m stoked to show you how it works!
 
 ## Tasks & Steps  
 Here’s how I pulled it off:  
@@ -12,9 +12,9 @@ Here’s how I pulled it off:
 - **Explainability**: Used SHAP to shine a light on what features (like blood markers) matter most and why the models think what they do.  
 
 ## Key Insights  
-- Isolation Forest nailed the outliers—think rare cases that could signal deeper issues.  
+- Isolation Forest nailed the outliers think rare cases that could signal deeper issues.  
 - XGBoost, post-tuning, stole the show with top-tier accuracy. It’s my go-to for a reason!  
-- Features like donor history and lab results were huge predictors—SHAP visuals made that crystal clear.  
+- Features like donor history and lab results were huge predictors SHAP visuals made that crystal clear.  
 - The Combined Model brought teamwork to the table, boosting predictions beyond any solo act.  
 
 ## Requirements  
